@@ -1,10 +1,16 @@
+import Header from './components/Header'
+
 import './App.css';
 
+
+// Higher order component
+//  - responsible for data fetching
+//  - updates state
 function App() {
   return (
-    <h1 className="App">
-      Hi
-    </h1>
+    <>
+      <Header />
+    </>
   );
 }
 
