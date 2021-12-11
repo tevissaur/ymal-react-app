@@ -2,7 +2,7 @@ import Header from './components/Header'
 import SearchForm from './components/SearchForm'
 import Spinner from './components/Spinner';
 import Info from './components/Info';
-// import Gallery from './components/Gallery';
+import Gallery from './components/Gallery';
 import API from './utils/API'
 import { useState, useEffect } from "react";
 import './App.css';
@@ -54,9 +54,7 @@ function App() {
         { loading ? <Spinner /> : (
           <>
             <Info info={info} />
-            <pre>
-              {JSON.stringify(results, null, 2)}
-            </pre>
+            <Gallery results={results} />
           </>
         ) }
       </div>

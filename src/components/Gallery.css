@@ -1,0 +1,9 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery .card {
+    width: 20%;
+    margin: 2.5%;
+}

@@ -1,9 +1,9 @@
 import './Iframe.css'
 
-const Iframe = (props) => {
+const Iframe = ({ src }) => {
     return (
         <div className='iframe-container'>
-            <iframe src={props.src} className='responsive-iframe'/>
+            <iframe src={src} className='responsive-iframe'/>
         </div>
     )
 }

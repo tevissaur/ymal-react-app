@@ -1,6 +1,18 @@
-const Gallery = () => {
+import ResultCard from "./ResultCard"
+import './Gallery.css'
+
+const Gallery = ({ results }) => {
+
+    console.log(results)
+
     return (
-        'Gallery'
+        <div className="gallery">
+            {results.map(result => {
+                return (
+                    <ResultCard {...result} />
+                )
+            })}
+        </div>
     )
 }
 
