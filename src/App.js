@@ -11,7 +11,7 @@ import './App.css';
 //  - updates state
 function App() {
 
-  const [searchTerm, setSearchTerm] = useState('Tame Impala')
+  const [searchTerm, setSearchTerm] = useState('')
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
@@ -38,6 +38,7 @@ function App() {
         <SearchForm
           searchTerm={searchTerm}
           setSearchTerm={setSearchTerm}
+          getRecomendations={getRecomendations}
         />
       </Header>
       <div className='container'>
