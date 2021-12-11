@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ymal-react-app/static/css/main.f5cf370c.chunk.css",
+    "main.js": "/ymal-react-app/static/js/main.913d978a.chunk.js",
+    "main.js.map": "/ymal-react-app/static/js/main.913d978a.chunk.js.map",
+    "runtime-main.js": "/ymal-react-app/static/js/runtime-main.5373d575.js",
+    "runtime-main.js.map": "/ymal-react-app/static/js/runtime-main.5373d575.js.map",
+    "static/css/2.058794ce.chunk.css": "/ymal-react-app/static/css/2.058794ce.chunk.css",
+    "static/js/2.01e7e9ca.chunk.js": "/ymal-react-app/static/js/2.01e7e9ca.chunk.js",
+    "static/js/2.01e7e9ca.chunk.js.map": "/ymal-react-app/static/js/2.01e7e9ca.chunk.js.map",
+    "static/js/3.de96f4e7.chunk.js": "/ymal-react-app/static/js/3.de96f4e7.chunk.js",
+    "static/js/3.de96f4e7.chunk.js.map": "/ymal-react-app/static/js/3.de96f4e7.chunk.js.map",
+    "index.html": "/ymal-react-app/index.html",
+    "static/css/2.058794ce.chunk.css.map": "/ymal-react-app/static/css/2.058794ce.chunk.css.map",
+    "static/css/main.f5cf370c.chunk.css.map": "/ymal-react-app/static/css/main.f5cf370c.chunk.css.map",
+    "static/js/2.01e7e9ca.chunk.js.LICENSE.txt": "/ymal-react-app/static/js/2.01e7e9ca.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5373d575.js",
+    "static/css/2.058794ce.chunk.css",
+    "static/js/2.01e7e9ca.chunk.js",
+    "static/css/main.f5cf370c.chunk.css",
+    "static/js/main.913d978a.chunk.js"
+  ]
+}
