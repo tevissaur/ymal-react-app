@@ -1,5 +1,6 @@
 import Header from './components/Header'
 import SearchForm from './components/SearchForm'
+import Spinner from './components/Spinner';
 import API from './utils/API'
 import { useState, useEffect } from "react";
 import './App.css';
@@ -23,11 +24,14 @@ function App() {
     try {
       const results = await API.getRecommendations(searchTerm)
       console.log(results)
-      
-    } catch(err) {
+
+    } catch (err) {
       alert(err)
     }
+    setLoading(false)
   }
+
+
   return (
     <>
       <Header>
@@ -36,6 +40,9 @@ function App() {
           setSearchTerm={setSearchTerm}
         />
       </Header>
+      <div className='container'>
+        { loading && <Spinner /> }
+      </div>
     </>
   );
 }
