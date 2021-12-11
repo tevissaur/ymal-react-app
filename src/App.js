@@ -1,6 +1,8 @@
 import Header from './components/Header'
 import SearchForm from './components/SearchForm'
 import Spinner from './components/Spinner';
+import Info from './components/Info';
+// import Gallery from './components/Gallery';
 import API from './utils/API'
 import { useState, useEffect } from "react";
 import './App.css';
@@ -11,7 +13,7 @@ import './App.css';
 //  - updates state
 function App() {
 
-  const [searchTerm, setSearchTerm] = useState('')
+  const [searchTerm, setSearchTerm] = useState('Tame Impala')
   const [loading, setLoading] = useState(true)
   const [info, setInfo] = useState(null)
   const [results, setResults] = useState([]) 
@@ -51,9 +53,7 @@ function App() {
       <div className='container'>
         { loading ? <Spinner /> : (
           <>
-            <pre>
-              {JSON.stringify(info, null, 2)}
-            </pre>
+            <Info info={info} />
             <pre>
               {JSON.stringify(results, null, 2)}
             </pre>
