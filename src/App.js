@@ -13,7 +13,7 @@ import './App.css';
 //  - updates state
 function App() {
 
-  const [searchTerm, setSearchTerm] = useState('Tame Impala')
+  const [searchTerm, setSearchTerm] = useState('')
   const [loading, setLoading] = useState(true)
   const [info, setInfo] = useState(null)
   const [results, setResults] = useState([]) 
